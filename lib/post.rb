@@ -7,7 +7,7 @@ class Post
     @@all << self
   end
 
-  def all
+  def self.all
     @@all
   end
 
@@ -19,4 +19,4 @@ class Post
     @author
   end
 
-end 
+end
